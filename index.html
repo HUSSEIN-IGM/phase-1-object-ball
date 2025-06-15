@@ -1,9 +1,25 @@
-<h1>JavaScript Objectball</h1>
-<p>
-  Open your Chrome dev tools to see console output and trigger the debugger to
-  catch.
-</p>
-
-<script src="./src/00-objectball.js"></script>
-<script src="./src/01-simple-debug.js"></script>
-<!-- <script src="./src/02-advanced-debug.js"></script> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Objectball Test</title>
+</head>
+<body>
+  <h1>Open Console to See Results</h1>
+  <script src="00-objectball.js"></script>
+  <script>
+    // Basic browser console tests
+    console.log("Points scored by Ben Gordon:", numPointsScored("Ben Gordon"));
+    console.log("Shoe size of Reggie Evans:", shoeSize("Reggie Evans"));
+    console.log("Colors of Charlotte Hornets:", teamColors("Charlotte Hornets"));
+    console.log("Team Names:", teamNames());
+    console.log("Player numbers for Brooklyn Nets:", playerNumbers("Brooklyn Nets"));
+    console.log("Stats for Brook Lopez:", playerStats("Brook Lopez"));
+    console.log("Rebounds of player with biggest shoe size:", bigShoeRebounds());
+    console.log("Player with most points:", mostPointsScored());
+    console.log("Winning Team:", winningTeam());
+    console.log("Player with longest name:", playerWithLongestName());
+    console.log("Does longest name player have most steals?", doesLongNameStealATon());
+  </script>
+</body>
+</html>
